@@ -6,9 +6,9 @@
  */
 
 //Imports for the program.
+
 import acm.graphics.*;
 import acm.program.GraphicsProgram;
-
 import java.awt.Color;
 import java.util.Random;
 
@@ -81,7 +81,7 @@ public class Screensaver extends GraphicsProgram
 				
 				
 				//Adds objects to the project/set color	
-				background.setFillColor(Color.BLACK);
+				background.setFillColor(rand);
 				add(background);		
 				
 				oval.setLocation(ranX, ranY);
@@ -99,11 +99,6 @@ public class Screensaver extends GraphicsProgram
 				gpoly.setLocation(ranX3, ranY3);
 				gpoly.setFillColor(rand);
 				add(gpoly);
-				
-				
-				
-				
-				
 			
 			}
 		
